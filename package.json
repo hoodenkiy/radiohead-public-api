@@ -1,0 +1,31 @@
+{
+  "name": "rapi",
+  "version": "1.0.0",
+  "description": "Public Radiohead Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodenkiy/radiohead-public-api.git"
+  },
+  "keywords": [
+    "radiohead",
+    "api"
+  ],
+  "author": "hoodenkiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoodenkiy/radiohead-public-api/issues"
+  },
+  "homepage": "https://github.com/hoodenkiy/radiohead-public-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
