@@ -4,16 +4,12 @@ export default {
 		message: '',
 		body: {}
 	},
-	productMessage: {
-		PRODUCT_CRETED: 'Product created sucessfully.',
-		PRODUCT_FETCHED: 'Product fetched sucessfully.',
-		INVALID_PRODUCT_ID: 'Invalid product id.',
-		PRODUCT_NOT_FOUND: 'Product not found.',
-		PRODUCT_UPDATED: 'Product updated.',
-		PRODUCT_DELETED: 'Product deleted.'
+	albumMessage: {
+		ALBUMS_FETCHED: 'All albums have fetched sucessfully.',
+		ALBUM_ADDED: 'Albums has been added sucessfully.'
 	},
 	userMessage: {
-		USER_CREATED: 'User created sucessfully.',
+		USER_ADDED: 'User created sucessfully.',
 		DUPLICATE_EMAIL: 'User with this email already exists.',
 		USER_NOT_FOUND: 'User not found.',
 		INVALID_PASSWORD: 'Incorrect password.',
