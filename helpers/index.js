@@ -4,6 +4,7 @@ export const formatMongoData = (data) => {
 			return item.toObject();
 		});
 	}
+console.log(data);
 
 	return data.toObject();
 };

@@ -12,8 +12,10 @@ export default {
 		USER_ADDED: 'User created sucessfully.',
 		DUPLICATE_EMAIL: 'User with this email already exists.',
 		USER_NOT_FOUND: 'User not found.',
+		USER_DELETED: 'User succesfully deleted.',
 		INVALID_PASSWORD: 'Incorrect password.',
-		LOGIN_SUCCESS: 'Login success.'
+		LOGIN_SUCCESS: 'Login success.',
+		LIST_USERS: 'Here is a list of all users.'
 	},
 	requestValidationMessage: {
 		BAD_REQUEST: 'Invalid request.',
